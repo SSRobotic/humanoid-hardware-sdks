@@ -16,18 +16,7 @@ Vendor SDKs, communication interfaces and platform-specific humanoid software.
 
 SDK ผู้ผลิต ระบบสื่อสาร และซอฟต์แวร์เฉพาะแพลตฟอร์ม
 
-Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repository is a focused resource directory and engineering guide. Linked SDKs, models and research implementations belong to their original creators.
-
-## 🗂️ Resource directory
-
-| Resource | What it provides | Keywords | Original source |
-| --- | --- | --- | --- |
-| [Unitree Legacy SDK](https://github.com/SSRobotic/unitree-legacy-sdk) | Legacy Go1-oriented SDK collection and supporting examples. | Go1, Legacy SDK, C++ | [unitreerobotics](https://github.com/unitreerobotics/unitree_legged_sdk) |
-| [DOBOT Atom SDK](https://github.com/SSRobotic/dobot-atom-sdk) | DOBOT Atom C++ SDK with RPC / DDS and recording examples. | Atom, C++, RPC | [Dobot-Arm](https://github.com/Dobot-Arm/dobot_atom_sdk) |
-| [Unitree SDK2](https://github.com/unitreerobotics/unitree_sdk2) | Modern Unitree communication and control SDK. Check examples and firmware requirements for your robot. | G1, H1, C++ | [unitreerobotics](https://github.com/unitreerobotics/unitree_sdk2) |
-| [Unitree SDK2 Python](https://github.com/unitreerobotics/unitree_sdk2_python) | Python interfaces and examples for Unitree SDK2 workflows. | G1, H1, Python | [unitreerobotics](https://github.com/unitreerobotics/unitree_sdk2_python) |
-| [Reachy 2 SDK](https://github.com/pollen-robotics/reachy2-sdk) | Python SDK for the Reachy 2 robotics platform. | Reachy 2, Python, SDK | [pollen-robotics](https://github.com/pollen-robotics/reachy2-sdk) |
-| [Reachy 2 Core](https://github.com/pollen-robotics/reachy2_core) | Core workspace and integration resources for Reachy 2. | Reachy 2, Integration, ROS 2 | [pollen-robotics](https://github.com/pollen-robotics/reachy2_core) |
+Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repository contains actual source files in `projects/`, with pinned upstream commits, retained licenses and an engineering guide. The imported implementations remain credited to their original creators.
 
 ## 📦 Code & models in this repository
 
@@ -45,6 +34,17 @@ cd humanoid-hardware-sdks
 ```
 
 Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
+
+## 🗂️ Resource directory
+
+| Resource | What it provides | Keywords | Original source |
+| --- | --- | --- | --- |
+| [Unitree Legacy SDK](https://github.com/SSRobotic/unitree-legacy-sdk) | Legacy Go1-oriented SDK collection and supporting examples. | Go1, Legacy SDK, C++ | [unitreerobotics](https://github.com/unitreerobotics/unitree_legged_sdk) |
+| [DOBOT Atom SDK](https://github.com/SSRobotic/dobot-atom-sdk) | DOBOT Atom C++ SDK with RPC / DDS and recording examples. | Atom, C++, RPC, DDS | [Dobot-Arm](https://github.com/Dobot-Arm/dobot_atom_sdk) |
+| [Unitree SDK2](https://github.com/unitreerobotics/unitree_sdk2) | Modern Unitree communication and control SDK. Check examples and firmware requirements for your robot. | G1, H1, C++, DDS | [unitreerobotics](https://github.com/unitreerobotics/unitree_sdk2) |
+| [Unitree SDK2 Python](https://github.com/unitreerobotics/unitree_sdk2_python) | Python interfaces and examples for Unitree SDK2 workflows. | G1, H1, Python, DDS | [unitreerobotics](https://github.com/unitreerobotics/unitree_sdk2_python) |
+| [Reachy 2 SDK](https://github.com/pollen-robotics/reachy2-sdk) | Python SDK for the Reachy 2 robotics platform. | Reachy 2, Python, SDK | [pollen-robotics](https://github.com/pollen-robotics/reachy2-sdk) |
+| [Reachy 2 Core](https://github.com/pollen-robotics/reachy2_core) | Core workspace and integration resources for Reachy 2. | Reachy 2, Integration, ROS 2 | [pollen-robotics](https://github.com/pollen-robotics/reachy2_core) |
 
 ## 🚀 Start here
 
