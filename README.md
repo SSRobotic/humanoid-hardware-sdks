@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">🔌 Hardware & SDKs</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-6-f28c28?style=flat-square" alt="6 curated resources"></a>
@@ -28,6 +28,23 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [Unitree SDK2 Python](https://github.com/unitreerobotics/unitree_sdk2_python) | Python interfaces and examples for Unitree SDK2 workflows. | G1, H1, Python | [unitreerobotics](https://github.com/unitreerobotics/unitree_sdk2_python) |
 | [Reachy 2 SDK](https://github.com/pollen-robotics/reachy2-sdk) | Python SDK for the Reachy 2 robotics platform. | Reachy 2, Python, SDK | [pollen-robotics](https://github.com/pollen-robotics/reachy2-sdk) |
 | [Reachy 2 Core](https://github.com/pollen-robotics/reachy2_core) | Core workspace and integration resources for Reachy 2. | Reachy 2, Integration, ROS 2 | [pollen-robotics](https://github.com/pollen-robotics/reachy2_core) |
+
+## 📦 Code & models in this repository
+
+**268 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [unitreerobotics/unitree_sdk2_python](projects/unitree_sdk2_python) | 268 | [`814556d15970`](https://github.com/unitreerobotics/unitree_sdk2_python/tree/814556d15970dd2ecf1c9984e845ca02ab07e206) | [LICENSE](projects/unitree_sdk2_python/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-hardware-sdks.git
+cd humanoid-hardware-sdks
+```
+
+Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
 
 ## 🚀 Start here
 

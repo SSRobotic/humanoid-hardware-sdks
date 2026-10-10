@@ -1,0 +1,22 @@
+{
+  "repository": "humanoid-hardware-sdks",
+  "url": "https://github.com/SSRobotic/humanoid-hardware-sdks",
+  "projects": [
+    {
+      "slug": "unitreerobotics/unitree_sdk2_python",
+      "source_url": "https://github.com/unitreerobotics/unitree_sdk2_python",
+      "commit": "814556d15970dd2ecf1c9984e845ca02ab07e206",
+      "branch": "master",
+      "snapshot": "all tracked file blobs at the pinned commit",
+      "gitlinks": [],
+      "license": "BSD-3-Clause",
+      "folder": "projects/unitree_sdk2_python",
+      "file_count": 268,
+      "bytes": 718629,
+      "lfs_pointers": []
+    }
+  ],
+  "source_file_count": 268,
+  "lfs_pointer_count": 0,
+  "materialized_file_count": 268
+}
